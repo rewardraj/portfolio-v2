@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Sample</title>
+</head>
+<body>
+    <div id="cursor"></div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo.png" alt="logo" class="logo">
+                <ul>
+                    <li><a class="active__Nav" href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="Hero">
+                <div class="Hero__Intro">
+                  <p>Hi! 👋, my name is</p>
+                  <h1 class="Hero__Title">Reward Edoyugbo</h1>
+                  <div class="Hero__Description">
+                    <p>I am a <span id="typed"></span><span id="blink">|</span></p>
+                  </div>
+                </div>
+                <div class="Hero__Image">
+                  <img src="images/second.png" alt="our hero reward joseph edoyugbo" />
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/main.png"  alt="about image">
+                </div>
+                <div class="about-col-2">
+                    <div class="about__Title">
+                        <h2 class="about__Heading">About Me</h2>
+                        <p class="about__Paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur esse eum, quia culpa placeat non voluptatibus aliquid asperiores laboriosam reiciendis iste aperiam, officia, natus mollitia fugiat numquam quod accusamus laudantium praesentium nisi repellat. Quis, maxime! Minus eaque obcaecati enim suscipit.</p>
+                        <div class="tab__Titles">
+                            <p class="tab__Links active__Link skills" onclick="toggleTab('skills')">Skills</p>
+                            <p class="tab__Links education" onclick="toggleTab('education')">Education</p>
+                        </div>
+                        <div id="skills" class="tab__Contents active-tab" >
+                        
+                                <!-- Skill Grid -->
+                               <div class="grid__Container">
+
+                                <div class="cardIcon">
+                                    <img src="/styles/icons/html5.svg" alt="">
+                                </div>
+                        
+            
+                                <div class="cardIcon">
+                                    <img src="/styles/icons/css3.svg" alt="">
+                                </div>
+    
+                    
+                                <div class="cardIcon">
+                                    <img src="/styles/icons/javascript.svg" alt="">
+                                </div>
+
+
+                                <div class="cardIcon">
+                                    <img src="/styles/icons/angular.svg" alt="">
+                                </div>
+
+
+                                    <div class="cardIcon react">
+                                        <img src="/styles/icons/react.svg" alt="">
+                                    </div>
+
+                                    <div class="cardIcon svelte">
+                                        <img src="/styles/icons/svelte-icon.svg" alt="">
+                                    </div>
+
+                                
+                            </div>
+                                      
+
+                        </div>
+
+                        <div id="education" class="tab__Contents" >
+                            <ul>
+                                <li class="tab__ContentList"><span>Computer Science</span><br>Lublin, Poland</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+            <div id="projectSection">
+                <div class="project__Intro">
+                    <h3 class="project__Heading">Projects</h3>
+                    <p class="project__Description">Personal Projects And Collaborations</p>
+                </div>
+
+                <div class="projects__List">
+
+                    <div class="project__Image">
+                        <img src="/images/bot.jpeg" alt="">
+                        <div class="image__Layer">
+                            <h3 class="image__LayerHeading">Robit</h3>
+                            <p class="image__LayerBody">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eveniet nisi vero praesentium incidunt ipsum, repudiandae suscipit maxime, beatae aliquam hic veniam atque illo. Voluptatum!</p>
+                            <a href="#"><img class="link__Icon" src="/styles/icons/github.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="project__Image">
+                        <img src="/images/bike.webp" alt="">
+                        <div class="image__Layer">
+                            <h3 class="image__LayerHeading">Robit</h3>
+                            <p class="image__LayerBody">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eveniet nisi vero praesentium incidunt ipsum, repudiandae suscipit maxime, beatae aliquam hic veniam atque illo. Voluptatum!</p>
+                            <a href="#"><img class="link__Icon" src="/styles/icons/github.svg" alt=""></a>
+                        </div>
+                    </div>
+                    
+                    <div class="project__Image">
+                        <img src="/images/bot.jpeg" alt="">
+                        <div class="image__Layer">
+                            <h3 class="image__LayerHeading">Robit</h3>
+                            <p class="image__LayerBody">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eveniet nisi vero praesentium incidunt ipsum, repudiandae suscipit maxime, beatae aliquam hic veniam atque illo. Voluptatum!</p>
+                            <a href="#"><img class="link__Icon" src="/styles/icons/github.svg" alt=""></a>
+                        </div>
+                    </div>
+                   
+                </div>
+                <a href="#" class="more__Btn">See More</a>
+            </div>
+
+            <!-- Project feauture layout  start-->
+           
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
